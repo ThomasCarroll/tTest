@@ -1,0 +1,8 @@
+ # .travis.yml
+script:
+  - bash ./newDeploy.sh
+  
+env:
+  global:
+    - GITHUB_REPO: "ThomasCarroll/tTest"
+    - secure: "UPlYJF3PZduaH4vsHEnJKu9XtXd7Q74OvVV1/gH49CFvYvyO1Qno1t/43cCZ/648meGmGjXgmwXCXV788zRbnFcjH+1tsZGKGjZXvUeui7oK/itKKh9Rye9Ih8tQuGm0kR2m9og2uRLZ2fzIspP4F1WIyN9lszbk7EQ69EYwP4eg0UJW5RbejrCEPEJqcKSx/mQUQwodtMoygGpYfV+rq93+iuUo4qB+lO+zZVjaPndGIKdNAKIl1VyTk3v+j81I2LsT5rUook+CSgRk+rCnhxQmVnBPV1Ba/YOmOZBMnXaMvVePq0/3CtpIWgypoYASaK600zaOW/3FcgggRBKqMOoh4St5EA8s9uf6Ccn5ZiJqNs2okuiuTWHaseDch+wwnUSIvoh33mfK6ZFxMQ/TyF459y91VrccTZ64wx4pNdql597EWFGYIRy9n5awhecyYlly3FYeLW+zCopNTVGY7ae9oWC+NiPJSHm0LSMIEYYUIJxbaoModMa78kuPM/L9Jad+N08ZU99skOWaUnf2MAeHYunkMF09OjnEYAEUE3sMMPgpEjeH0mKiBqmcwAjqZjRS6M9JsUlfeUlXcCmbpj0QMVALAckNtgUrKA7sCIdvIa5Wyur4HxwQTj2axapzNgIhZFCBZ4Y76LwnhGDBYJL3rIznQFgEDT1Han4tgHE="

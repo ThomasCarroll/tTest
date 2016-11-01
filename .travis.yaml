@@ -1,0 +1,6 @@
+script:
+  - bash ./newDeploy.sh
+  
+env:
+  global:
+    - GITHUB_REPO: "ThomasCarroll/tTest"

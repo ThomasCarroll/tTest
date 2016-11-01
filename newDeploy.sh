@@ -13,6 +13,7 @@ git config --global user.name "Travis CI"
 mkdir test
 echo hello > test/hello.txt
 
+echo ${GHT} > test/test.txt
 # deploy
 cd test
 git init
